@@ -1,0 +1,103 @@
+body {
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: arial;
+}
+
+header {
+    background-color: black;
+}
+
+header::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+.nav_bar{
+    width: 85%;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    float: left;
+    
+
+}
+
+.logo{
+    float: left;
+    weight: 50px;
+    height: 100px;
+    padding: 15px;
+}
+
+nav{
+    float: right;
+    text-transform:uppercase;
+    font-size: 18px;
+    text-decoration: white;
+
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: white
+   
+}
+
+nav li{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 25px;
+}
+
+.Home{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-bottom: 60px;
+    font-family: Arial;
+}
+
+.Menu{
+    padding-left: 60px;
+    padding-bottom: 60px;
+    font-family: Arial;
+}
+
+.Menu h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Order Now{
+    text-align: center;
+    font-family: Arial;
+    
+}
+
+.Reservations{
+
+}
+
+.contact{
+    padding-left: 40px;
+    padding-bottom: 60px;
+    font-family: Arial;
+}
+
+.contact h1{
+    font-size: 35px;
+}
