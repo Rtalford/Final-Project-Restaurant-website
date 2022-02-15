@@ -75,12 +75,15 @@ nav li{
     font-family: Arial;
     position: relative;
     z-index: 2;
+
+}
     
 
 .Menu{
     padding-left: 60px;
     padding-bottom: 60px;
     font-family: Arial;
+    
 }
 
 .Menu h1{
@@ -88,18 +91,13 @@ nav li{
     text-align: center;
 }
 
-.Order Now{
-    text-align: center;
-    font-family: Arial;
-    
-}
 
-.reservation{
-     padding-left: 40px;
+.reservations{
+     margin-left: 30px;
 }
 
 .contact{
-    padding-left: 40px;
+    padding-left: 30px;
     padding-bottom: 60px;
     font-family: Arial;
 }
